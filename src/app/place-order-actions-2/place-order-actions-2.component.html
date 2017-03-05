@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="row">
+    <div class="jumbotron text-xs-center col-xs-12 mt-3">
+      <h1 class="display-3 mb-2">Running total: ${{runningTotal}}</h1>
+
+      <div class="form-inline">
+        <div class="form-group">
+          <button
+            class="btn btn-secondary"
+            (click)="handlePlaceOrderButtonClicked(10)"
+            >
+            Place $10 order
+          </button>
+
+          <button
+            class="btn btn-secondary"
+            (click)="handlePlaceOrderButtonClicked(20)"
+            >
+            Place $20 order
+          </button>
+
+          <button
+            class="btn btn-secondary"
+            (click)="handlePlaceOrderButtonClicked(30)"
+            >
+            Place $30 order
+          </button>
+        </div>
+      </div>
+
+      <p class="text-xs-center mt-2"><a [routerLink]="'/'">&laquo; Home</a></p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+<div class="row">
+  <div class="col-xs">
+    <img class="rounded img-fluid profile-photo" [src]="post.profilePhotoURL">
+  </div>
+  <div class="col-xs-10">
+    <p class="small">
+      <span class="font-weight-bold">{{post.name}}</span>
+      <span class="text-muted">
+        @{{post.handle}}
+        &bull;
+        {{post.createdAt | amTimeAgo}}
+      </span>
+    </p>
+    <p>
+      {{post.text}}
+    </p>
+    <div>
+      <fa
+        class="repost-button mr-3"
+        [class.reposted]="post.reposted"
+        [name]="'retweet'"
+        (click)="handleRepostButtonClick()"
+        ></fa>
+
+      <fa
+        class="like-button"
+        [class.liked]="post.liked"
+        [name]="'heart'"
+        (click)="handleLikeButtonClick()"
+        ></fa>
+    </div>
+  </div>
+</div>

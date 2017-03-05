@@ -1,0 +1,21 @@
+.like-button {
+  cursor: pointer;
+
+  &:hover,
+  &.liked {
+    color: red;
+  }
+}
+
+.profile-photo {
+  max-width: 48px;
+}
+
+.repost-button {
+  cursor: pointer;
+
+  &:hover,
+  &.reposted {
+    color: green;
+  }
+}

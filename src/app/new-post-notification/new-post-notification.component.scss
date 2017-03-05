@@ -1,0 +1,13 @@
+$background: #f5f8fa;
+$background-hover: #e1e8ed;
+
+.app-new-post-notification {
+  background-color: $background;
+  cursor: pointer;
+  padding: 0.75rem 1.25rem;
+  text-align: center;
+
+  &:hover {
+    background-color: $background-hover;
+  }
+}

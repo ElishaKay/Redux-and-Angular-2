@@ -1,0 +1,58 @@
+<router-outlet></router-outlet>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-8 offset-xs-2 mt-3">
+      <div class="card">
+        <div class="list-group list-group-flush">
+          <a
+            [routerLink]="'/demo-1'"
+            class="list-group-item list-group-item-action"
+            >
+            Demo #1: Simple reducer function
+          </a>
+
+          <a
+            [routerLink]="'/demo-2'"
+            class="list-group-item list-group-item-action"
+            >
+            Demo #2: Reducer function with <code>PLACE_ORDER</code> actions
+          </a>
+
+          <a
+            [routerLink]="'/demo-3'"
+            class="list-group-item list-group-item-action"
+            >
+            Demo #3: Reducer function called when user clicks "Place order" buttons
+          </a>
+
+          <a
+            [routerLink]="'/demo-4'"
+            class="list-group-item list-group-item-action"
+            >
+            Demo #4: Full Redux example with "Place order" buttons
+          </a>
+
+          <a
+            [routerLink]="'/twitter'"
+            class="list-group-item list-group-item-action"
+            >
+            Demo #5: Twitter
+          </a>
+        </div>
+
+        <div class="card-footer">
+          <div class="row">
+            <p class="col-lg-9 mb-0">
+              Created by <a href="http://jessepinho.com" target="_blank">Jesse Pinho</a>
+              for <a href="https://meetup.com/Geekfest" target="_blank">Geekfest</a>, January 3, 2017
+            </p>
+            <p class="col-lg-3 mb-0 text-lg-right">
+              <a href="https://github.com/jessepinho/redux-talk" target="_blank">View on GitHub</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

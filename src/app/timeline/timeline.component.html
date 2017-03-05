@@ -1,0 +1,30 @@
+<div class="card">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item new-post-form">
+      <app-new-post-form
+        [profilePhotoURL]="profilePhotoURL"
+        (newPost)="handleNewPost($event)"
+        ></app-new-post-form>
+    </li>
+    <li
+      class="list-group-item list-group-item-action p-0"
+      [@appear]="newPostIds.length ? 'visible' : 'hidden'"
+      >
+      <app-new-post-notification
+        [count]="newPostIds.length"
+        (click)="handleNewPostNotificationClick()"
+        ></app-new-post-notification>
+    </li>
+    <li
+      class="list-group-item list-group-item-action post"
+      *ngFor="let post of posts"
+      [@appear]="postAnimationState(post)"
+      >
+      <app-post
+        [post]="post"
+        (toggleLikePost)="handleToggleLikePost(post)"
+        (toggleRepost)="handleToggleRepost(post)"
+        ></app-post>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,43 @@
+<div class="card">
+  <div class="list-group list-group-flush">
+    <a href="/#/twitter?use_redux=YESPLZ" class="list-group-item list-group-item-action" *ngIf="!useRedux">
+      Switch to Redux mode
+    </a>
+
+    <a href="/#/twitter" class="list-group-item list-group-item-action" *ngIf="useRedux">
+      Switch to non-Redux mode
+    </a>
+
+    <template [ngIf]="useRedux">
+      <a href="https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd" class="list-group-item list-group-item-action">Redux DevTools Chrome extension</a>
+
+      <div class="list-group-item">
+        <div class="form-group row">
+          <label for="user__name" class="col-md-3 col-form-label">Name</label>
+          <div class="col-md-9">
+            <input class="form-control" id="user__name" [ngModel]="name" (ngModelChange)="handleNameChange($event)">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="user__handle" class="col-md-3 col-form-label">Handle</label>
+          <div class="col-md-9">
+            <input class="form-control" id="user__handle" [ngModel]="handle" (ngModelChange)="handleHandleChange($event)">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-md-3 col-form-label">Profile photo</label>
+          <div class="col-md-9">
+            <img
+              class="profile-photo"
+              *ngFor="let src of profilePhotoURLs"
+              [src]="src"
+              (click)="handleProfilePhotoClick(src)"
+              >
+          </div>
+        </div>
+      </div>
+    </template>
+  </div>
+</div>
