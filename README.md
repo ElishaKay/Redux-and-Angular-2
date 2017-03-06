@@ -21,6 +21,7 @@ Features
 - Angular 2
 - Redux
 - Twitter Clone
+- Redux DevTools Chrome extension
 
 
 Prerequisites
@@ -58,7 +59,8 @@ npm install @types/jasmine@2.5.41
 # Then simply start your app
 npm start
 
-
+# Your app will be available at:
+http://localhost:4200
 
 
 ### Create a new git repo
