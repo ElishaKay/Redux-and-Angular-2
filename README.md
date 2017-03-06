@@ -1,4 +1,12 @@
+<img src="reduxtweet.png">
 
+For a great tutorial on this app, watch this video by the author, Jesse Pinho, coder at Groupon:
+
+<a href= "https://www.youtube.com/watch?v=Q9iSjFbPjPo">What the Heck is Redux? with Jesse Pinho</a>
+
+The video description sums it up nicely:
+
+"This talk is all about the question, "What the heck is Redux?" To answer it, we'll dive into the code of a simple Twitter clone that has two versions: one without Redux, and one with. We'll address the challenges of developing Twitter without Redux -- managing app state, keeping data consistent among components, etc. -- and then take a look at how Redux answers these challenges."
 
 
 - [Features](#features)
