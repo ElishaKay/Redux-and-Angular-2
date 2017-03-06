@@ -1,31 +1,69 @@
-# ReduxTalk
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
 
-## Build
+Features
+--------
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+- Angular 2
+- Spotify API
+- Search
+- Auto-Suggest (Mid-Typing)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Prerequisites
+--------
 
-## Running end-to-end tests
+Node.js and npm are essential to Angular development. 
+    
+<a href="https://docs.npmjs.com/getting-started/installing-node" target="_blank" title="Installing Node.js and updating npm">
+Get it now</a> if it's not already installed on your machine.
+ 
+**Verify that you are running at least node `v4.x.x` and npm `3.x.x`**
+by running `node -v` and `npm -v` in a terminal/console window.
+Older versions produce errors.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
 
-## Deploying to Github Pages
 
-Run `npm run deploy` to deploy to Github Pages. (Note that it deploys with a `--target` of `development`, which is needed to preserve the `debugger` statements in the app.)
+Getting Started
+---------------
 
-## Further help
+The easiest way to get started is to clone the repository:
 
-To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```bash
+# Get the latest snapshot
+git clone https://github.com/ElishaKay/Angular-2-Spotify-App.git
+
+# Change directory
+cd into the project
+
+# Install NPM dependencies
+npm install
+
+# Then simply start your app
+npm start
+
+
+
+
+### Create a new git repo
+You could [start writing code](#start-development) now and throw it all away when you're done.
+If you'd rather preserve your work under source control, consider taking the following steps.
+
+Initialize this project as a *local git repo* and make the first commit:
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+```
+
+Create a *remote repository* for this project on the service of your choice.
+
+Grab its address (e.g. *`https://github.com/<my-org>/my-proj.git`*) and push the *local repo* to the *remote*.
+```bash
+git remote add origin githubRepoUrl
+git push origin master
