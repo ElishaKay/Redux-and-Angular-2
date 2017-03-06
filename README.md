@@ -45,7 +45,7 @@ The easiest way to get started is to clone the repository:
 
 ```bash
 # Get the latest snapshot
-git clone https://github.com/ElishaKay/Angular-2-Spotify-App.git
+git clone https://github.com/ElishaKay/Redux-and-Angular-2.git
 
 # Change directory
 cd into the project
