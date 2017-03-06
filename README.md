@@ -19,9 +19,8 @@ Features
 --------
 
 - Angular 2
-- Spotify API
-- Search
-- Auto-Suggest (Mid-Typing)
+- Redux
+- Twitter Clone
 
 
 Prerequisites
