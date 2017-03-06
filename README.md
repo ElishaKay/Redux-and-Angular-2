@@ -2,7 +2,7 @@
 
 For a great tutorial on this app, watch this video by the author, Jesse Pinho, coder at Groupon:
 
-<a href= "https://www.youtube.com/watch?v=Q9iSjFbPjPo">What the Heck is Redux? with Jesse Pinho</a>
+<a href= "http://www.youtube.com/watch?v=Q9iSjFbPjPo&t=12m38s">What the Heck is Redux? with Jesse Pinho</a>
 
 The video description sums it up nicely:
 
