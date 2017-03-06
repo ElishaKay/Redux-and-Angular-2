@@ -1,4 +1,4 @@
-<img src="reduxtweet.png">
+<img src="reduxtwitter.PNG">
 
 For a great tutorial on this app, watch this video by the author, Jesse Pinho, coder at Groupon:
 
